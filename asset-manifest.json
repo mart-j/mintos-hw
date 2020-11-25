@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/mintos-hw/static/css/main.e2bb659c.chunk.css",
+    "main.js": "/mintos-hw/static/js/main.8906bd72.chunk.js",
+    "main.js.map": "/mintos-hw/static/js/main.8906bd72.chunk.js.map",
+    "runtime-main.js": "/mintos-hw/static/js/runtime-main.41923f9c.js",
+    "runtime-main.js.map": "/mintos-hw/static/js/runtime-main.41923f9c.js.map",
+    "static/js/2.91689e9f.chunk.js": "/mintos-hw/static/js/2.91689e9f.chunk.js",
+    "static/js/2.91689e9f.chunk.js.map": "/mintos-hw/static/js/2.91689e9f.chunk.js.map",
+    "static/js/3.2c69f6ad.chunk.js": "/mintos-hw/static/js/3.2c69f6ad.chunk.js",
+    "static/js/3.2c69f6ad.chunk.js.map": "/mintos-hw/static/js/3.2c69f6ad.chunk.js.map",
+    "index.html": "/mintos-hw/index.html",
+    "static/css/main.e2bb659c.chunk.css.map": "/mintos-hw/static/css/main.e2bb659c.chunk.css.map",
+    "static/js/2.91689e9f.chunk.js.LICENSE.txt": "/mintos-hw/static/js/2.91689e9f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.41923f9c.js",
+    "static/js/2.91689e9f.chunk.js",
+    "static/css/main.e2bb659c.chunk.css",
+    "static/js/main.8906bd72.chunk.js"
+  ]
+}

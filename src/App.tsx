@@ -17,8 +17,8 @@ const App = () => {
     setCurrencies(CURRENCIES);
   }, []);
 
-  const filteredCurrencies = currencies?.filter((curr) => {
-    return curr.selected;
+  const filteredCurrencies = currencies?.filter(({ selected }) => {
+    return selected;
   });
   const selectCurrencyHandler = (id: number) => {
     const newCurrencies = [...currencies!];

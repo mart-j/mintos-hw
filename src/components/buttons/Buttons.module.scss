@@ -1,8 +1,8 @@
 .buttonWrapper {
-  width: 100%;
+  max-width: 375px;
   margin: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
@@ -13,10 +13,10 @@
   font-size: 16px;
   text-transform: uppercase;
   outline: none;
-  margin: 10px;
+  margin: 10px 5px;
   padding: 8px 36px 8px 8px;
   display: flex;
-  justify-content: center;
+  justify-content: space;
   align-items: center;
   color: #104371;
   background-color: #ececec;
@@ -34,7 +34,6 @@
 }
 
 .checkbox {
-    
   margin-right: 13px;
   display: flex;
   justify-content: center;
@@ -47,6 +46,15 @@
 
 .checkmark {
   color: red;
-  font-size: 16px;
+
   font-weight: 500;
+}
+
+@media only screen and (max-width: 420px) {
+  .button,
+  .activeButton {
+    font-size: 14px;
+    margin: 3px;
+    padding: 6px 28px 6px 6px;
+  }
 }

@@ -1,16 +1,12 @@
-.container {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
 .buttonWrapper {
-  width: 100%;
+  width: 370px;
   display: flex;
-  justify-content: flex-start;
+  justify-content: start;
   flex-wrap: wrap;
-  margin-bottom: 10px;
 }
 .button {
+  width: 27%;
+  display: inline-flex;
   font-weight: 300;
   font-size: 16px;
   position: relative;
@@ -21,7 +17,6 @@
   outline: none;
   border: none;
 }
-
 
 .checkbox {
   cursor: pointer;
@@ -49,11 +44,28 @@
 .checkmark {
   font-style: bold;
   color: white;
-
 }
 
+@media only screen and (max-width: 420px) {
+  .buttonWrapper {
+    max-width: 320px;
+  }
+  .button,
+  .activeButton {
+    font-size: 14px;
+    margin: 10px 8px;
+    padding: 8px 32px;
+  }
+}
 
-
-
-
-
+@media only screen and (max-width: 335px) {
+  .button,
+  .activeButton {
+    font-size: 14px;
+    margin: 10px 8px;
+    padding: 8px 32px;
+  }
+  .buttonWrapper {
+    padding: 0;
+  }
+}

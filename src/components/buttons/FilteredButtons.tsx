@@ -27,7 +27,8 @@ const FilteredButtons: FC<Props> = ({ onClickHandler, filteredCurrencies }) => {
           );
         })}
       </div>
-    </div>
+      </div>
+
   );
 };
 
